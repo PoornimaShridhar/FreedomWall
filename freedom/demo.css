@@ -1,0 +1,25 @@
+@media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+    float: left;
+    width: 25%;
+    max-width: 100%; } }
+    
+    .carousel-multi-item-2 .card img {
+    border-radius: 2px; }
+
+@media (min-width: 768px) {
+        .carousel-multi-item-2 .col-md-3 {
+        float: right;
+        width: 25%;
+        max-width: 100%; } }
+        
+        .img-fluid{
+            width: 370px;
+            height: 270px;
+        }
+
+        .carousel-multi-item-2 .card img {
+        border-radius: 2px; }
+        #left-arrow{
+        padding-left: 435px;
+        }

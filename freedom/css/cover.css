@@ -1,40 +1,22 @@
-/* #home{
-    background-image: url('image5.jpg');
-    background-size: cover;
-    background-position-x: 100%;
-    background-position-y: 100%;
-} */
 
 .centered {
     font-size: 90px;
-    
     font-stretch: wider;
     height: 60px;
     text-shadow: 5px 8px 5px black;
     position: absolute;
     color: white;
     top: 45%;
-    /* padding-bottom: 10px;; */
-    /* margin-bottom:2px solid white;;
-    border-bottom: 2px solid white; */
-    /* text-decoration: underline;
-    text-decoration-color: white; */
-    /* left: 19%; */
-    /* transform: translate(-50%, -50%); */
   }
 
   .centered2 {
     font-size: 30px;
     padding-left: 40px;
     font-stretch: wider;
-    /* height: 60px; */
-    /* text-shadow: 5px 8px 5px black; */
     position: absolute;
     color: white;
     top: 65%;
     text-decoration: overline; */
-    /* left: 19%;
-    /* transform: translate(-50%, -50%); */
   }
 .line1{
     position: absolute;
@@ -44,12 +26,9 @@
 }
 
 #id1{
-    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
-    
 }
 
 #t1{
@@ -57,8 +36,40 @@
     direction: ltr;
 }
 
+#navbar_container{
+    height: 60px;
+}
+
+#logo{
+    size: 25px;
+}
+
+#nav_elements{
+    font-size: 21px;
+    padding-top: 25px;
+}
+
+#navbar-right{
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+#headings{
+    text-decoration: underline;
+}
+
+#carousel-image{
+    width:100%;
+    border: 1px solid black
+}
+
+#gallery_images{
+    padding-left: 35px;
+    padding-right:10px;
+}
+
 .container{
-    text-align: center;
+    text-align: center;  
 }
 
 #img1{
@@ -76,10 +87,8 @@
 }
 
 #p1{
-    padding-left: 30px;
-    margin-left:30px;
+   
     text-align: justify;
-    align-items: flex-start;
 }
 
 .contactphoto{
@@ -92,15 +101,14 @@
     border-radius: 250px;
     transition: border-radius .5s,transform .5s;
     overflow: hidden;
+    height:170px;
 }
 
 .contactphoto:hover{
     opacity: 1.0;
 }
 
-
 .contactphoto1{
-    
     float:right;
     margin: 5px;
     opacity: 0.9;
@@ -108,18 +116,29 @@
     border-radius: 250px;
     transition: border-radius .5s,transform .5s;
     overflow: hidden;
+    height:170px;
 }
 
 .contactphoto1:hover{
     opacity: 1.0;
 }
 
-#image{
+#cover_pic{
     opacity: 0.95;
+    height:100%;
+    width:100%;
 }
 
-#image:hover{
+#cover_pic:hover{
     opacity: 1.0;
+}
+
+#cc1{
+    text-align: left;
+}
+
+#cc2{
+    text-align: right;
 }
 
 @media (min-width: 768px) {
@@ -141,11 +160,16 @@
 
 #f1{
     font-weight: normal;
-    font-size: 19px;;
+    font-size: 19px;
+    color: black;
+    padding-left: 2px;
 }
 
 #f2{
     font-size: 20px;
+    padding-left:10px;
+    color:black;
+    padding-top:3px;
 }
 
 #f_logo{
@@ -168,10 +192,79 @@
     cursor: pointer;
   }
 
-  .gallery_im{
+  #gallery_im{
     width:300px;
     height:280px;
-    padding:10px;
     border-radius: 10%;
+    border: 1px dotted black;
+    margin:3px;
   }
 
+  #footer_nav_bar{
+    background-color: gray;
+    height: 95px;
+  }
+
+  #footer_ele1{
+    height: 60px;
+    text-align: center;
+  }
+
+  #footer_ele2{
+    font-size: 21px;
+    padding-top: 25px;
+  }
+
+  #icons{
+    font-size:24px
+  }
+
+  #register{
+    padding-left:30px;
+  }
+
+  #reg_ele1{
+    padding-top:1px;
+    padding-bottom: 1px;
+  }
+
+  #faq{
+    padding-top:1px;
+  }
+
+  #faq_ele1{
+    margin-bottom: 10px;
+  }
+
+  #categories{
+    text-align: left;
+  }
+
+  @media only screen and (max-width:770px) {
+    /* For mobile phones: */
+    #logo {
+      height:60px;;
+    }
+  }
+
+  @media only screen and (max-width:715px) {
+    .centered{
+        font-size:40px;
+        height:30px;
+    }
+  }
+
+  @media only screen and (max-width:815px) {
+    #abt_us, #induction, #img1, #p1, #categories, #contact_person{
+        width:100%;
+        padding-left:10px;
+        text-align: justify;
+    }
+  }
+
+  @media only screen and (max-width:770px) {
+    /* For mobile phones: */
+    #contact_person{
+      width:100%;
+    }
+  }

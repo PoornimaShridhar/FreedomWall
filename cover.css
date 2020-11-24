@@ -68,6 +68,10 @@
     padding-right:10px;
 }
 
+#gallery_im {
+    width: 100%;
+}
+
 .container{
     text-align: center;  
 }
@@ -193,8 +197,8 @@
   }
 
   #gallery_im{
-    width:300px;
-    height:280px;
+    /* width:300px;
+    height:280px; */
     border-radius: 10%;
     border: 1px dotted black;
     margin:3px;

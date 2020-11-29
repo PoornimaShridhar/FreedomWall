@@ -1,7 +1,7 @@
 
 .centered {
   font-family: "roboto";
-    font-size: 9.9vw;
+    font-size: 7vw;
     font-stretch: wider;
     height: 30vh;
     text-shadow: 5px 8px 5px black;
@@ -19,6 +19,15 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+#faq, #events, #activities, #abt_us, #gallery, #contact_us {
+  position: relative;
+  top: -90px;
+}
+
+.panel-heading .accordion-toggle:after {
+  display: none !important;
 }
 
 #id1{
@@ -223,7 +232,12 @@ html {
     font-weight: normal;
     font-size: 20px;
     color: white;
-    padding-bottom: 5px;
+    padding: 5px;
+}
+
+#alignmiddle {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #f2{
@@ -378,8 +392,19 @@ html {
 
   @media only screen and (max-width:715px) {
     .centered{
-        font-size:40px;
-        height:30px;
+        font-size: 8vw;
+        /* height:30px; */
+    }
+    #accordion, #accordion2 {
+      width: 100% !important; 
+    }
+    #alignmiddle {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    .navbar-header {
+      padding-left: 10px;
+      text-align: left;
     }
   }
 

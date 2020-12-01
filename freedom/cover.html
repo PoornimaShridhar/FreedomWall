@@ -229,7 +229,7 @@
                 <div class="galery-item">
 
                     <!-- single image -->
-                    <div class="galery-img" style="background-image:url(gallery/photo_gallery/21.jpg)"></div>
+                    <div class="galery-img" onclick="zoom(this)" style="background-image:url(gallery/photo_gallery/21.jpg)"></div>
                     <!-- /single image -->
 
                 </div>
@@ -239,11 +239,11 @@
                 <div class="galery-item">
 
                     <!-- single image -->
-                    <div class="galery-img" style="background-image:url(gallery/photo_gallery/22.jpg)"></div>
+                    <div class="galery-img" onclick="zoom(this)" style="background-image:url(gallery/photo_gallery/22.jpg)"></div>
                     <!-- /single image -->
 
                     <!-- single image -->
-                    <div class="galery-img" style="background-image:url(gallery/photo_gallery/23.jpg)"></div>
+                    <div class="galery-img" onclick="zoom(this)" style="background-image:url(gallery/photo_gallery/23.jpg)"></div>
                     <!-- /single image -->
 
                 </div>
@@ -254,21 +254,21 @@
 
                     <div class="item-column">
                         <!-- single image -->
-                        <div class="galery-img" style="background-image:url(gallery/photo_gallery/24.jpg)"></div>
+                        <div class="galery-img" onclick="zoom(this)" style="background-image:url(gallery/photo_gallery/24.jpg)"></div>
                         <!-- /single image -->
 
                         <!-- single image -->
-                        <div class="galery-img" style="background-image:url(gallery/photo_gallery/25.jpg)"></div>
+                        <div class="galery-img" onclick="zoom(this)" style="background-image:url(gallery/photo_gallery/25.jpg)"></div>
                         <!-- /single image -->
                     </div>
 
                     <div class="item-column">
                         <!-- single image -->
-                        <div class="galery-img" style="background-image:url(gallery/photo_gallery/26.jpg)"></div>
+                        <div class="galery-img" onclick="zoom(this)" style="background-image:url(gallery/photo_gallery/26.jpg)"></div>
                         <!-- /single image -->
 
                         <!-- single image -->
-                        <div class="galery-img" style="background-image:url(gallery/photo_gallery/27.jpg)"></div>
+                        <div class="galery-img" onclick="zoom(this)" style="background-image:url(gallery/photo_gallery/27.jpg)"></div>
                         <!-- /single image -->
                     </div>
 
@@ -278,7 +278,7 @@
                 <div class="galery-item">
 
                     <!-- single image -->
-                    <div class="galery-img" style="background-image:url(gallery/photo_gallery/28.jpg)"></div>
+                    <div class="galery-img" onclick="zoom(this)" style="background-image:url(gallery/photo_gallery/28.jpg)"></div>
                     <!-- /single image -->
 
                 </div>
@@ -288,11 +288,11 @@
                 <div class="galery-item">
 
                     <!-- single image -->
-                    <div class="galery-img" style="background-image:url(gallery/photo_gallery/29.jpg)"></div>
+                    <div class="galery-img" onclick="zoom(this)" style="background-image:url(gallery/photo_gallery/29.jpg)"></div>
                     <!-- /single image -->
 
                     <!-- single image -->
-                    <div class="galery-img" style="background-image:url(gallery/photo_gallery/30.jpg)"></div>
+                    <div class="galery-img" onclick="zoom(this)" style="background-image:url(gallery/photo_gallery/30.jpg)"></div>
                     <!-- /single image -->
 
                 </div>
@@ -303,21 +303,21 @@
 
                     <div class="item-column">
                         <!-- single image -->
-                        <div class="galery-img" style="background-image:url(gallery/photo_gallery/31.jpg)"></div>
+                        <div class="galery-img" onclick="zoom(this)" style="background-image:url(gallery/photo_gallery/31.jpg)"></div>
                         <!-- /single image -->
 
                         <!-- single image -->
-                        <div class="galery-img" style="background-image:url(gallery/photo_gallery/32.jpg)"></div>
+                        <div class="galery-img" onclick="zoom(this)" style="background-image:url(gallery/photo_gallery/32.jpg)"></div>
                         <!-- /single image -->
                     </div>
 
                     <div class="item-column">
                         <!-- single image -->
-                        <div class="galery-img" style="background-image:url(gallery/photo_gallery/33.jpg)"></div>
+                        <div class="galery-img" onclick="zoom(this)" style="background-image:url(gallery/photo_gallery/33.jpg)"></div>
                         <!-- /single image -->
 
                         <!-- single image -->
-                        <div class="galery-img" style="background-image:url(gallery/photo_gallery/34.jpg)"></div>
+                        <div class="galery-img" onclick="zoom(this)" style="background-image:url(gallery/photo_gallery/34.jpg)"></div>
                         <!-- /single image -->
                     </div>
 
@@ -326,6 +326,8 @@
 
                 
             </div>
+
+            <div id="popup" style="background-image:url(gallery/photo_gallery/34.jpg)"></div>
         </div>
         <!-- /Galery Slider -->
             </div>
@@ -465,6 +467,16 @@
     }
     $('.panel-group').on('hidden.bs.collapse', toggleChevron);
     $('.panel-group').on('shown.bs.collapse', toggleChevron);
+
+    $("#popup").on("click", function() {
+      document.getElementById("popup").style.transform = "scale(0)";
+    });
+
+    function zoom(caller) {
+      var backimg = $(caller)[0].style.backgroundImage;
+      document.getElementById("popup").style.backgroundImage = backimg;
+      document.getElementById("popup").style.transform = "scale(1)";
+    }
 
     </script>
 

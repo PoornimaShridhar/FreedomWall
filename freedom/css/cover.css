@@ -10,6 +10,20 @@
     top: 30vw;
   }
 
+  #popup {
+    z-index: 9999;
+    position: absolute;
+    top: 0px;
+    transform: scale(0);
+    left: 30%;
+    transition: ease 0.4s;
+    width: 450px;
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 .line1{
     position: absolute;
     color:white;
@@ -297,7 +311,7 @@ html {
   }
 
   /* #footer_ele1{
-    /* height: 60px; */
+    height: 60px;
     text-align: left;
   } */
 
@@ -383,10 +397,30 @@ html {
 
   }
 
+  @media only screen and (max-width:1200px) {
+    #popup {
+      left: 26%;
+    }
+  }
+
+  @media only screen and (max-width:990px) {
+    #popup {
+      width: 400px;
+      height: 400px;
+      left: 23%;
+    }
+  }
+
   @media only screen and (max-width:770px) {
     /* For mobile phones: */
     #logo {
-      height:60px;;
+      height:60px;
+    }
+    #popup {
+      width: 90%;
+      left: 5%;
+      height: 340px;
+      top: 0;
     }
   }
 

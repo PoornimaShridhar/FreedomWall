@@ -1,6 +1,6 @@
 
 .centered {
-  font-family: "roboto";
+  font-family: 'Roboto', sans-serif;
     font-size: 7vw;
     font-stretch: wider;
     height: 30vh;
@@ -10,8 +10,16 @@
     top: 30vw;
   }
 
+  a.accordion-toggle:hover {
+    text-decoration: none;
+  } 
+
+  a.accordion-toggle:focus {
+    text-decoration: none;
+  } 
+
   #popup {
-    z-index: 9999;
+    z-index: 999;
     position: absolute;
     top: 0px;
     transform: scale(0);
@@ -37,7 +45,7 @@ html {
 
 #faq, #events, #activities, #abt_us, #gallery, #contact_us {
   position: relative;
-  top: -90px;
+  top: -60px;
 }
 
 .panel-heading .accordion-toggle:after {
@@ -60,32 +68,129 @@ html {
 }
 
 #logo{
-    size: 25px;
-    /* width: 90px;
-    height: 90px; */
+  width: 100%;
+  padding: 4.5px 0;
+}
+
+#logofooter{
+  width: 160px;
+  height: 90px;
+  padding: 4.5px 0;
+}
+
+.button {
+  padding: 5px 25px !important;
+  border: 2px solid black !important;
+  transition: ease 0.4s;
+}
+
+.button:hover {
+  background-color: white;
+  color: black !important;
+}
+
+.button > a {
+  color: white;
+  transition: ease 0.4s;
+  background-color: transparent !important;
+}
+
+.button > a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.panel-default {
+  background-color: black !important;
+  transition: ease 0.4s !important;
+}
+
+.panel-heading {
+  background-color: black !important;
+  transition: ease 0.4s !important;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: white !important;
+  font-size: 16px;
+}
+
+.panel-default>.panel-heading {
+  color: white !important;
+}
+
+.panel-default:hover {
+  background-color: white !important;
+  color: black !important;
+}
+.panel-heading:hover {
+  background-color: white !important;
+  color: black !important;
+}
+
+.panel-body {
+  color: black !important;
+  background-color: white !important;
+}
+
+.button > a:focus {
+  color: black;
+  text-decoration: none;
+}
+
+#myNavbar {
+  background-color: #222;
+}
+
+.navbar-brand {
+  padding: 0 0 0 10px !important;
+}
+
+.navbar-nav>li>a {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+
+nav > .container-fluid {
+  height: 60px;
 }
 
 #nav_elements{
-    font-family: "roboto";
+  font-family: 'Roboto', sans-serif;
     font-size: 21px;
     padding-top: 25px;
 }
 
 .contact_us_link{
-  font-family: "roboto";
+  font-family: 'Roboto', sans-serif;
   font-size: 21px;
     padding-top: 25px;
 }
 
 #abt_us{
   /* font-family: 'Helvetica'; */
-  font-family: "roboto";
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 500;
 }
 
-.points{
+#points{
   text-align: center;
+  margin-bottom: 0 !important;
+  font-size: 18px;
+}
+
+.navbar-toggle {
+  padding: 0 8px !important;
+}
+
+#third {
+  margin-top: 8px !important;
+}
+
+.navbar-toggle span {
+  top: 40% !important;
+  left: 8px !important;
 }
 
 #navbar-right{
@@ -96,7 +201,7 @@ html {
 #headings{
     /* text-decoration: underline; */
     /* font-family: 'Helvetica'; */
-    font-family: "roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     text-align: center;
 }
@@ -131,8 +236,8 @@ html {
     width: 100%;
     /* width:370px;
     height:270px; */
-    height: 40vh;
-    padding-right:20px;
+    /* height: 40vh; */
+    /* padding-right:20px; */
 }
 
 /* .item img {
@@ -141,7 +246,7 @@ html {
 } */
 
 #main_hdg{
-  font-family: "roboto";
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   font-weight: 600;
   
@@ -155,9 +260,9 @@ html {
 
 #p1{
   /* font-family: 'Helvetica'; */
-  font-family: 'roboto';
+  font-family: 'Roboto', sans-serif;
     text-align: justify;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -212,15 +317,29 @@ html {
 #cc1{
   padding-top: 8vh;
     text-align: left;
-    font-family: "roboto";
-    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-bottom: 0;
 }
 
 #cc2{
     padding-top: 8vh;
     text-align: right;
-    font-family: "roboto";
-    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+#cc11 {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+#cc22 {
+  text-align: right;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
 }
 
 /* @media (min-width: 768px) {
@@ -242,7 +361,7 @@ html {
     }
 
 #f1{
-  font-family: "roboto";
+  font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 20px;
     color: white;
@@ -281,7 +400,7 @@ html {
     text-align: center;
     text-decoration: none;
     /* display: inline-block; */
-    font-size: 26px;
+    font-size: 20px;
     /* margin: 4px 2px; */
     cursor: pointer;
   }
@@ -342,7 +461,7 @@ html {
 
   .panel-heading .accordion-toggle:after {
     /* symbol for "opening" panels */
-      font-family: 'roboto';  /* essential for enabling glyphicon */
+    font-family: 'Roboto', sans-serif;  /* essential for enabling glyphicon */
     content: "\e113";     /*adjust as needed, taken from bootstrap.css */
     float: right;        /* adjust as needed */
     color: white;         /* adjust as needed */
@@ -365,7 +484,7 @@ html {
     color: white;
     font-weight: bold;
     font-size: 25px;
-    font-family: 'roboto';
+    font-family: 'Roboto', sans-serif;
   }
   .panel .panel-heading:hover {
     background: grey;
@@ -373,11 +492,11 @@ html {
   }
 
   #faq{
-    font-family: "roboto";
+    font-family: 'Roboto', sans-serif;
   }
 
   #register{
-    font-family: "roboto";
+    font-family: 'Roboto', sans-serif;
     font: white;
   }
 
@@ -395,6 +514,21 @@ html {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 
+  }
+
+  html, body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  
+  @media only screen and (min-width:1200px) {
+    .padd {
+      padding: 75px 15px !important;
+    }
+    
+    .padd2 {
+      padding: 60px 15px !important;
+    }
   }
 
   @media only screen and (max-width:1200px) {
@@ -415,6 +549,10 @@ html {
     /* For mobile phones: */
     #logo {
       height:60px;
+    }
+    .navbar-nav>li>a {
+      padding-top: 10px !important;
+      padding-bottom: 10px !important;
     }
     #popup {
       width: 90%;

@@ -64,12 +64,12 @@ html {
 }
 
 #navbar_container{
-    height: 60px;
+    height: 90px;
 }
 
 #logo{
   width: 100%;
-  padding: 4.5px 0;
+  /* padding:  4.5px 0; */
 }
 
 #logofooter{
@@ -79,8 +79,8 @@ html {
 }
 
 .button {
-  padding: 5px 25px !important;
-  border: 2px solid black !important;
+  padding: 5px 70px 5px 70px !important;
+  /* border: 2px solid black !important; */
   transition: ease 0.4s;
 }
 
@@ -100,23 +100,30 @@ html {
   text-decoration: none;
 }
 
+.panel{
+  border:none;
+}
+
 .panel-default {
-  background-color: black !important;
+  /* background-color: black !important; */
   transition: ease 0.4s !important;
+  border: none;
 }
 
 .panel-heading {
-  background-color: black !important;
+  background-color: white !important;
   transition: ease 0.4s !important;
+  text-align:left;
 }
 
-.navbar-inverse .navbar-nav>li>a {
-  color: white !important;
-  font-size: 16px;
+ .navbar-nav>li>a {
+  color: black !important;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .panel-default>.panel-heading {
-  color: white !important;
+  color: black !important;
 }
 
 .panel-default:hover {
@@ -126,6 +133,7 @@ html {
 .panel-heading:hover {
   background-color: white !important;
   color: black !important;
+  text-align: left;
 }
 
 .panel-body {
@@ -139,11 +147,12 @@ html {
 }
 
 #myNavbar {
-  background-color: #222;
+  background-color: white;
 }
 
 .navbar-brand {
-  padding: 0 0 0 10px !important;
+  padding: 0 0 10px 10px !important;
+  padding-bottom: 20px;;
 }
 
 .navbar-nav>li>a {
@@ -151,8 +160,8 @@ html {
   padding-bottom: 20px !important;
 }
 
-nav > .container-fluid {
-  height: 60px;
+nav > .container {
+  height: 70px;
 }
 
 #nav_elements{
@@ -175,7 +184,7 @@ nav > .container-fluid {
 }
 
 #points{
-  text-align: center;
+  text-align: left;
   margin-bottom: 0 !important;
   font-size: 18px;
 }
@@ -194,8 +203,8 @@ nav > .container-fluid {
 }
 
 #navbar-right{
-    font-size: 20px;
-    padding-top: 25px;
+    font-size: 10px;
+    padding-top: 5px;
 }
 
 #headings{
@@ -203,7 +212,10 @@ nav > .container-fluid {
     /* font-family: 'Helvetica'; */
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    text-align: center;
+    text-align: left;
+    padding-top: 50px;;
+    padding-left: 50px;
+    color: rgb(246,123,57);
 }
 
 #cri{
@@ -258,12 +270,26 @@ nav > .container-fluid {
   font-weight: 500;
 }
 
+.glyphicon-plus{
+  /* padding-right: 20px; */
+  /* height: 10px;
+  width:10px;
+  font-weight: 100; */
+  color: rgb(246,123,57);
+}
+
+.glyphicon-minus{
+  color: rgb(246,123,57);
+}
+
 #p1{
   /* font-family: 'Helvetica'; */
   font-family: 'Roboto', sans-serif;
     text-align: justify;
     font-size: 16px;
     font-weight: 500;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .contact{
@@ -315,29 +341,30 @@ nav > .container-fluid {
 }
 
 #cc1{
-  padding-top: 8vh;
-    text-align: left;
+  /* padding-top: 8vh; */
+    text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     margin-bottom: 0;
 }
 
 #cc2{
-    padding-top: 8vh;
-    text-align: right;
+    /* padding-top: 8vh; */
+    text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     margin-bottom: 0;
 }
 
 #cc11 {
-  text-align: left;
+  text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
 }
 
 #cc22 {
-  text-align: right;
+  text-align: center;
+  padding-right: 15px;;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
 }
@@ -365,12 +392,18 @@ nav > .container-fluid {
     font-weight: normal;
     font-size: 20px;
     color: white;
-    padding: 5px;
+    padding-top: 10px;
+    padding: 15px;
+}
+
+#icons{
+  padding-top:10px;
 }
 
 #alignmiddle {
-  padding-top: 30px;
-  padding-bottom: 30px;
+   padding-top: 10px;
+  padding-bottom: 10px; 
+  color:white;
 }
 
 #f2{
@@ -387,12 +420,15 @@ nav > .container-fluid {
 
 .navbar .navbar-default{
   margin-bottom: 0px;
+  padding-bottom: 30px !important;
+  margin-bottom: 30px !important;
+  background-color: white;
 }
 
 .button4 {border-radius: 12px;}
 
 .button {
-    background-color: black; /* Green */
+    background-color:rgb(246,123,57); /* Green */
     border: none;
     color: white;
     padding: 10px;

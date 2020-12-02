@@ -430,6 +430,15 @@ nav > .container {
   padding-bottom: 7vw;
 }
 
+#pc > .col-sm-1 {
+  width: 3.333333%;
+}
+
+#pc > .col-sm-2 {
+  padding: 0 5px;
+  width: 18.666667%;
+}
+
 #phone {
   display: none;
 }
@@ -682,7 +691,7 @@ nav > .container {
       display: block;
     }
     #navimg {
-      width: 13%;
+      width: 10%;
       margin: auto;
     }
     .navbar-toggle {
@@ -774,6 +783,10 @@ nav > .container {
     }
     #points {
       font-size: 3vw;
+    }
+    #navimg {
+      width: 14%;
+      margin: auto;
     }
     .landing {
       width: 53vw;

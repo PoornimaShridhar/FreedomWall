@@ -40,21 +40,14 @@
                                 <li><a href="#contact_us">Contact us</a></li>
                             </ul>
                             <ul class="nav navbar-nav navbar-right">
-                              <a class="navbar-brand" href="#"><img style="width:100%; " src="miscellaneous/iitbgvlogo.png"></img></a>
+                              <a class="navbar-brand" id="navright" href="#"><img id="navimg" src="miscellaneous/iitbgvlogo.png"></img></a>
                             </ul>
                     </div>
             </div>
         </nav>
-        <div class="row">
-            <!-- <img id="cover_pic" src='image5.jpeg'></img>
-
-            <div class="centered">FREEDOM THE WALL</div> -->
-
-            <div class="col-sm-7" style="padding-top: 200px;padding-left: 200px;padding-right: 100px;" >
-              <img src='miscellaneous/Welcome_to_the_wall.png'></img>
-              <br>
-              <br>
-              <br>
+        <div class="row landingmain">
+            <div class="landingleft">
+              <img class="wel" src='miscellaneous/Welcome_to_the_wall.png'></img>
               <p id="points"> Freedom, the Wall is a world-class climbing facility 
                 setup by IIT Bombay in collaboration 
                 with The Girivihar Club. </p>
@@ -62,14 +55,12 @@
                 <br>
                 <p id="points">Established
                   on the 7th of May 2019, it has supported many climbing enthusiasts
-                explore the sport ever since. </p>
-                
-                <p id="points">The club aims towards popularizing the sport
+                explore the sport ever since. The club aims towards popularizing the sport
                 and promoting the true spirit of it, among all.
             </p>
             </div>
-            <div class="col-sm-5" style="padding-top: 50px;margin-right: 0px !important;padding-right: 0px !important;">
-              <img src='miscellaneous/Climbing_Girl.png'></img>
+            <div class="landingright">
+              <img class="landing" src='miscellaneous/Climbing_Girl.png'></img>
             </div>
         </div> 
         <br>
@@ -96,16 +87,12 @@
                 </div> -->
                 <br>
                 <div id="activities"></div>
-                <div>
                 <h1 id="main_hdg">Activities</h1>
                 <!-- <hr style="padding-bottom: 0%; margin-bottom: 0;"> -->
-                <p style="text-align: center; font-size: 16px;">There's always something going at the wall</p>
-                <br>
-                <br>
-                <div class="row" id="induction">
+                <p id="desc" style="text-align: center; font-size: 16px;">There's always something going at the wall</p>
+                <div class="row">
                     <div class="col-sm-5">
                       <h2 id="headings">Get started with climbing</h2>
-                      <br>
                       <p class="text-justify" id="p1">The Freedom community conducts regular Induction cum climbing training sessions,
                     <span style="font-weight: 600">2-3 times in a week.</span> This is to introduce the participants, in general about the wall and
                     climbing as a sport. Getting inducted is mandatory before any participant climbs
@@ -121,14 +108,11 @@
                 </div>
                 <div class="col-sm-7" style="padding-right: 0;"><img id="img1" src="gallery/11.jpg"></div>
             </div>
-            </div>
                 <br>
-                <!-- <hr style="margin-bottom: 0;"> -->
                 <div class="row">
                     <div  class="col-sm-7" style="padding-left: 0;"> <img id="img1" src="routes/r5.jpg"></div>
                     <div class="col-sm-5">
-                      <h2 id="headings" style="color: rgb(246,123,57);padding-left:30px;padding-top: 60px;">Weekly challenge</h2>
-                      <br>
+                      <h2 id="headings" style="color: rgb(246,123,57);padding-left:30px;">Weekly challenge</h2>
                         <p class="text-justify" id="p1" style="padding-left: 30px;">Welcome to this week's challenge.</p>
                         <p  class="text-justify" id="p1" style="padding-left: 30px;">The route marked out here is the route for this week.</p>
                         <p id="p1" style="padding-left: 30px;">Any foot holds 
@@ -143,15 +127,12 @@
                 <div id="events"></div>
                 <div>
                 <h1 id="main_hdg">Events</h1>
-                <p style="text-align: center; font-size: 16px;">To compete with yourself to the fullest</p>
-                <br>
-                <br>
+                <p id="desc" style="text-align: center; font-size: 16px;">To compete with yourself to the fullest</p>
                 </div>
                 <div class="row">
-                    <div class="col-sm-6"  style="padding-left: 0;"><img id="img1" src="gallery/1"></div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-7"  style="padding-left: 0;"><img id="img1" src="gallery/1"></div>
+                    <div class="col-sm-5">
                       <h2 id="headings">Climbathon</h2>
-                      <br>
                         <p class="text-justify" id="p1" style="padding-right:50px;">It is a bi-annual event, where in teams can take part
                         in bouldering, lead climbing, speed climbing. Its a fun competition that 
                         anyone can try.</p>
@@ -166,29 +147,36 @@
 
                 <br>
 
-                <!-- <div class="row" id="cardrow">
-                  <div class="column" id="cardcol">
-                    <div class="card">
-                    <img src='routes/r1.jpg'></img>
-                  </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <img src='routes/r2.jpg'></img>
-                  </div>
-                  <div class="col-sm-2">
-                    <img src='routes/r3.jpg'></img>
-                  </div>
-                  <div class="col-sm-2">
-                    <img src='routes/r4.jpg'></img>
-                  </div>
-                  <div class="col-sm-2">
-                    <img src='routes/r5.jpg'></img>
-                  </div>
-                </div> -->
 
                 <h1 id="main_hdg">Routes to try</h1>
-                <hr>
-                <div>
+                <div class="row" id="pc">
+                  <div class="col-sm-2">
+                    <img id="routeimg" src='routes/r1.jpg'></img>
+                    <p id="routef"><b>Cross in yellow</b></p>
+                    <p id="routes">Grade: 5c</p>
+                  </div>
+                  <div class="col-sm-4">
+                    <img id="routeimg" src='routes/r2.jpg'></img>
+                    <p id="routef"><b>Cross in yellow</b></p>
+                    <p id="routes">Grade: 5c</p>
+                  </div>
+                  <div class="col-sm-2">
+                    <img id="routeimg" src='routes/r3.jpg'></img>
+                    <p id="routef"><b>Cross in yellow</b></p>
+                    <p id="routes">Grade: 5c</p>
+                  </div>
+                  <div class="col-sm-2">
+                    <img id="routeimg" src='routes/r4.jpg'></img>
+                    <p id="routef"><b>Cross in yellow</b></p>
+                    <p id="routes">Grade: 5c</p>
+                  </div>
+                  <div class="col-sm-2">
+                    <img id="routeimg" src='routes/r5.jpg'></img>
+                    <p id="routef"><b>Cross in yellow</b></p>
+                    <p id="routes">Grade: 5c</p>
+                  </div>
+                </div>
+                <div id="phone">
                     <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
                       <!-- Indicators -->
                       <ol class="carousel-indicators">
@@ -390,10 +378,10 @@
                 <h1 id="main_hdg">Frequently Asked Questions</h1>
                 <p style="text-align: center; font-size: 16px;">Any new things raises a lot of questions we got you covered though...</p>
                 <br>
-            <div style="width: 50%;float:left;padding-left: 100px;" class="panel-group" id="accordion">
+            <div style="width: 50%;float:left;" class="panel-group" id="accordion">
                 <div class="panel panel-default" style="border:none;">
                   <div class="panel-heading highlight">
-                    <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" style="font-size: 18px;font-family: 'Roboto', sans-serif;"> What is it?</a> <i class="indicator glyphicon glyphicon-plus"></i> </h4>
+                    <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" style="font-size: 18px;font-family: 'Roboto', sans-serif;"> What is it?</a><span id="plus" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> <i class="indicator glyphicon glyphicon-plus"></i></span> </h4>
                   </div>
                   <div id="collapseOne" class="panel-collapse collapse">
                     <div class="panel-body">
@@ -406,7 +394,7 @@
                 </div>
                 <div class="panel panel-default" style="border:none;">
                   <div class="panel-heading">
-                    <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" style="font-size: 18px;font-family: 'Roboto', sans-serif;">  Who it is for? </a><i class="indicator glyphicon glyphicon-plus"></i> </h4>
+                    <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" style="font-size: 18px;font-family: 'Roboto', sans-serif;">  Who it is for? </a><span id="plus" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo"><i class="indicator glyphicon glyphicon-plus"></i> </span></h4>
                   </div>
                   <div id="collapseTwo" class="panel-collapse collapse">
                     <div class="panel-body" style="text-align: justify;font-size: 14px; font-family: 'Roboto', sans-serif;"> <p  >Here’s an exhaustive list:
@@ -424,41 +412,41 @@
                 </div>
                 <div class="panel panel-default" style="border:none;">
                   <div class="panel-heading">
-                    <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" style="font-size: 18px;font-family: 'Roboto', sans-serif;">  Prior experience/prerequisites? </a><i class="indicator glyphicon glyphicon-plus"></i> </h4>
+                    <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" style="font-size: 18px;font-family: 'Roboto', sans-serif;">  Prior experience/prerequisites? </a><span id="plus" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree"><i class="indicator glyphicon glyphicon-plus"></i> </span></h4>
                   </div>
                   <div id="collapseThree" class="panel-collapse collapse">
-                    <div class="panel-body" style="font-size: 14px; font-family: 'Roboto', sans-serif;"> For now, the wall will be open for anyone with a pair of climbing shoes and ability to understand and follow basic etiquette.
+                    <div class="panel-body" style="font-size: 14px; font-family: 'Roboto', sans-serif;text-align: justify ;"> For now, the wall will be open for anyone with a pair of climbing shoes and ability to understand and follow basic etiquette.
               
                       Eventually we want to get to a stage where even people with physical disabilities can enjoy the sport safely; we will work on it in the next phase. What is prerequisite is a positive can-do or can-try attitude, to challenge yourself and better yourself. Remember, babies learn to climb before they can walk, climbing is a natural activity before modern life rendered it unnatural.
                        </div>
                   </div>
                 </div>
               </div>
-              <div style="width: 49%;float:right;padding-right: 100px;" class="panel-group" id="accordion2">
+              <div style="width: 49%;float:right;" class="panel-group" id="accordion2">
                 <div class="panel panel-default" style="border:none;">
                   <div class="panel-heading highlight">
-                    <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne_2" style="font-size: 18px;font-family: 'Roboto', sans-serif;"> So, can I just come and climb?</a> <i class="indicator glyphicon glyphicon-plus"></i></h4>
+                    <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne_2" style="font-size: 18px;font-family: 'Roboto', sans-serif;"> So, can I just come and climb?</a> <span id="plus2" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne_2"><i class="indicator glyphicon glyphicon-plus"></i></span></h4>
                   </div>
                   <div id="collapseOne_2" class="panel-collapse collapse">
-                    <div class="panel-body" style="font-size: 14px; font-family: 'Roboto', sans-serif;"> No. Climbing is a fairly evolved sport and it has some norms, etiquettes, and rules to be followed. You need to attend a free Intro workshop by volunteers, where these things will be explained along with slots/schedules system. For example, it is mandatory to wear climbing shoes (special sticky rubber shoes) while climbing.
+                    <div class="panel-body" style="font-size: 14px; font-family: 'Roboto', sans-serif;text-align: justify ;"> No. Climbing is a fairly evolved sport and it has some norms, etiquettes, and rules to be followed. You need to attend a free Intro workshop by volunteers, where these things will be explained along with slots/schedules system. For example, it is mandatory to wear climbing shoes (special sticky rubber shoes) while climbing.
                   </div>
                   </div>
                 </div>
                 <div class="panel panel-default" style="border:none;">
                   <div class="panel-heading">
-                    <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo_2" style="font-size: 18px;font-family: 'Roboto', sans-serif;"> What to do if I don’t have shoes?</a> <i class="indicator glyphicon glyphicon-plus"></i></h4>
+                    <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo_2" style="font-size: 18px;font-family: 'Roboto', sans-serif;"> What to do if I don’t have shoes?</a><span id="plus2" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo_2"> <i class="indicator glyphicon glyphicon-plus"></i></span></h4>
                   </div>
                   <div id="collapseTwo_2" class="panel-collapse collapse">
-                    <div class="panel-body" style="font-size: 14px; font-family: 'Roboto', sans-serif;"> Shoes are personal items, for hygiene and form/fit issues (feet stink, more so sweaty feet!). So ideally you must invest in a pair for yourself. However, it is common for beginners to try their hand (feet) at climbing using rented/borrowed shoes before they decide to invest in their own. The volunteers have arranged a loan of several pairs as a temporary measure; you can find out details once you register for workshops.
+                    <div class="panel-body" style="font-size: 14px; font-family: 'Roboto', sans-serif;text-align: justify ;"> Shoes are personal items, for hygiene and form/fit issues (feet stink, more so sweaty feet!). So ideally you must invest in a pair for yourself. However, it is common for beginners to try their hand (feet) at climbing using rented/borrowed shoes before they decide to invest in their own. The volunteers have arranged a loan of several pairs as a temporary measure; you can find out details once you register for workshops.
                   </div>
                 </div>
                 </div>
                 <div class="panel panel-default" style="border:none;">
                   <div class="panel-heading">
-                    <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree_2" style="font-size: 18px;font-family: 'Roboto', sans-serif;"> Where to buy shoes: </a> <i class="indicator glyphicon glyphicon-plus"></i></h4>
+                    <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree_2" style="font-size: 18px;font-family: 'Roboto', sans-serif;"> Where to buy shoes? </a> <span id="plus2" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree_2"><i class="indicator glyphicon glyphicon-plus"></i></span></h4>
                   </div>
                   <div id="collapseThree_2" class="panel-collapse collapse">
-                    <div class="panel-body" style="font-size: 14px; font-family: 'Roboto', sans-serif;"> An entry level pair costs about 3.5k in Decathlon R City Mall; you can also get much nicer ones from abroad at similar or better prices
+                    <div class="panel-body" style="font-size: 14px; font-family: 'Roboto', sans-serif;text-align: justify ;"> An entry level pair costs about 3.5k in Decathlon R City Mall; you can also get much nicer ones from abroad at similar or better prices
                   </div>
                   </div>
                 </div>
@@ -468,22 +456,19 @@
           </div>        
             <br>
             <br>
-            <div class="row" id="induction">
-              <div class="col-sm-4">
-                <h2 id="main_hdg" style="padding-top: 150px;">Interested to climb ?</h2>
-                <br>
-                <p class="text-justify" id="p1" style="padding-left: 60px;;">Sign up for our induction sessions and learn all about the fun of climbing</p>
-                <a target="_blank" href="https://docs.google.com/forms/d/1T5d7nwZlqxpSgL-lHD3ajl3HS-Wg1aOPmAD56xIQwPc/edit?usp=sharing">
-                  <button class="button button4" id="register" style="display: inline-block;margin-left: 60px;">SIGN UP</button>
-                </a>
-          <p id="p1" class="text-justify">
-          </p>
-          
-          <p id="p1" class="text-justify">
-          </p>
-          </div>
-          <div class="col-sm-8" style="padding-right: 0;"><img id="img1" src="gallery/11.jpg"></div>
-      </div>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-5" style="text-align: center;">
+                  <h2 id="main_hdg" style="padding-top: 5vw;">Interested to climb ?</h2>
+                  <br>
+                  <p id="p1">Sign up for our induction sessions and learn all about the fun of climbing</p>
+                  <a target="_blank" href="https://docs.google.com/forms/d/1T5d7nwZlqxpSgL-lHD3ajl3HS-Wg1aOPmAD56xIQwPc/edit?usp=sharing">
+                    <button class="button button4" id="register">SIGN UP</button>
+                  </a><br><br>
+                </div>
+                <div class="col-sm-7"><img id="img1" src="gallery/11.jpg"></div>
+              </div>
+            </div>
 
             <br>
             <!-- <br>
@@ -497,61 +482,38 @@
             <br>
             <br>
             <br>
-            <div id="contact_us">
+            <div class="container" id="contact_us">
                     <div class="row">
                       <h1 id="main_hdg">Still got questions</h1>
                       <p style="text-align: center; font-size: 16px;">Reach out to us...</p>
                       <br>
                     </div>
                     
-                    <!-- <div class="row contact">
-                    <div id="contact_person" class="col-sm-6" >
-                      <img class="contactphoto"  src="contactUs/tanisha.jpeg">
-                      <p id="cc1"><b>Tanisha Agrawal</b></p>
-                        <p id="cc11">Adventure Club Manager
-                         <br>
-                         Phone: +9560968081
-                         </p>
-                    </div>
-                    <div  id="contact_person" class="col-sm-6" >
-                       <img class="contactphoto1" src="contactUs/Imrong.jpeg">
-                       <p id="cc2"><b>Imrong Naro</b></p>
-                         <p id="cc22">
-                          Member, Freedom The Wall
-                         <br>
-                         Phone: +9560968081
-                         </p>
-                        </div>
-                    </div> -->
-                    <div class="contact row container">
-                      <div id="contact_person" class="col-sm-6" style="padding-left: 390px;" >
-                        <img class="contactphoto"  src="contactUs/tanisha.png">
+                    <div class="contact row">
+                      <div class="col-sm-2 offset-sm-2"></div>
+                      <div class="col-sm-3" id="contleft">
+                          <img class="contactphoto"  src="contactUs/tanisha.png">
+                          <div id="inner">
+                          <p id="cc1"><b>Tanisha Agarwal</b></p>
+                            <p id="cc11">GSEC, Adventure Club
+                             <br>
+                             Ph: +9560968081
+                             </p>
+                            </div>
                       </div>
-                        <div id="contact_person" class="col-sm-6" style="padding-left:125px;">
-                          <img class="contactphoto"  src="contactUs/Imrong.png">
-
+                      <div class="col-sm-2 offset-sm-2"></div>
+                      <div class="col-sm-3" id="contright">
+                            <img class="contactphoto"  src="contactUs/Imrong.png">
+                            <div id="inner">
+                            <p id="cc2"><b>Imrong Naro</b></p>
+                             <p id="cc22">
+                              Volunteer, Freedom Wall
+                             <br>
+                             Ph: +9560968081
+                             </p>
+                            </div>
                       </div>
-                    <br>    
                   </div>
-                  <br>
-                  <div class="contact row container">
-                    <div id="contact_person" class="col-sm-6" style="padding-left: 398px;" >
-                      <p id="cc1"><b>Tanisha Agarwal</b></p>
-                        <p id="cc11">GSEC, Adventure Club
-                         <br>
-                         Ph: +9560968081
-                         </p>
-                    </div>
-                      <div id="contact_person" class="col-sm-6" style="padding-right: 150px;">
-                        <p id="cc2"><b>Imrong Naro</b></p>
-                         <p id="cc22">
-                          Volunteer, Freedom Wall
-                         <br>
-                         Ph: +9560968081
-                         </p>
-                    </div>
-                  <br>    
-                </div>
         </div>
     <script>
 
@@ -653,7 +615,8 @@
 
 <div class="row" style="background-color: black; text-align: center;">
   <div class="col-sm-12">
-    <span><a target="_blank" id="f1" href="https://www.facebook.com/iitbclimbing"><i id="icons" class="fa fa-facebook-f"></i></a></span>
+    <span><a target="_blank" id="f1" href="https://www.facebook.com/iitbclimbing"><i class="fa fa-facebook"></i></a></span>
+    <span><a target="_blank" id="f1" href="mailto:freedomthewall@gmail.com"><i class="fa fa-envelope"></i></a></span>
   </div>
   <div id="alignmiddle" class="col-sm-12"><p>2020. Freedom The Wall</p></div>
 </div>

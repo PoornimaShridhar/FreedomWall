@@ -714,8 +714,8 @@ nav > .container {
     #navright {
       width: 100%;
     }
-    #plus {
-      left: 86.5%;
+    #plus, #plus2 {
+      left: 90%;
     }
     .landing {
       width: 50vw;

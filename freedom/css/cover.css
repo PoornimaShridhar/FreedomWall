@@ -28,7 +28,7 @@
   }
 
   .landing {
-    width: 40vw;
+    width: 41vw;
   }
 
   .landingmain {
@@ -82,7 +82,7 @@ html {
 
 #faq, #events, #activities, #abt_us, #gallery, #contact_us {
   position: relative;
-  top: -60px;
+  top: -70px;
 }
 
 .panel-heading .accordion-toggle:after {
@@ -246,13 +246,13 @@ nav > .container {
 
 #plus {
   position: absolute;
-  left: 50%;
+  left: 46%;
   cursor: pointer;
 }
 
 #plus2 {
   position: absolute;
-  left: 86.5%;
+  left: 96.5%;
   cursor: pointer;
 }
 

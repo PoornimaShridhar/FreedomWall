@@ -637,6 +637,7 @@ nav > .container {
     font-family: 'Roboto', sans-serif;
     font: white;
     outline: 0;
+    width: 80%;
   }
 
 .page-footer{
@@ -688,6 +689,12 @@ nav > .container {
     /* For mobile phones: */
     #contact_person{
       width:100%;
+    }
+    #register {
+      width: 100%;
+    }
+    #reg {
+      padding: 0 !important;
     }
     #pc {
       display: none;

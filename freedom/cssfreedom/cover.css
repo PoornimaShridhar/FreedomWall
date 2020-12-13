@@ -248,9 +248,15 @@ nav > .container {
   position: absolute;
   left: 46%;
   cursor: pointer;
+  color: rgb(246,123,57);
+  font-weight: 600;
+  font-size: 25px;
 }
 
 #plus2 {
+  color: rgb(246,123,57);
+  font-weight: 600;
+  font-size: 25px;
   position: absolute;
   left: 96.5%;
   cursor: pointer;
@@ -657,6 +663,10 @@ nav > .container {
     font-family: 'Roboto', sans-serif;
   }
 
+  #cc11 > a, #cc22 > a {
+    color: rgb(90 83 83);
+  }
+
   
   @media only screen and (min-width:1200px) {
     .padd {
@@ -686,6 +696,10 @@ nav > .container {
     /* For mobile phones: */
     #contact_person{
       width:100%;
+    }
+    #logo{
+      width: 75%;
+      padding: 10px 0;
     }
     .carousel-inner img {
       width: 100%;
@@ -730,10 +744,11 @@ nav > .container {
       padding: 10vw 0;
     }
     .wel {
-      width: 30vw;
+      width: 40vw;
     }
     #points {
       font-size: 2.5vw;
+      text-align: justify;
     }
     #headings {
       padding: 2vw 0;
@@ -761,7 +776,7 @@ nav > .container {
       width: 90%;
       left: 5%;
       height: 340px;
-      top: 16vh;
+      top: 13vh;
     }
   }
 
@@ -797,6 +812,9 @@ nav > .container {
     .carousel-inner img {
       width: 100%;
       height: 80vh !important;
+    }    
+    .wel {
+      width: 45vw;
     }
     #p1 {
       font-size: 3.5vw;
@@ -815,7 +833,7 @@ nav > .container {
       width: 30%;
     }
     #points {
-      font-size: 3vw;
+      font-size: 2.7vw;
     }
     #navimg {
       width: 20%;
@@ -824,7 +842,7 @@ nav > .container {
     .landing {
       width: 41vw;
       height: 66vh;
-      padding: 15vw 0;
+      padding: 10vh 0 13vh 0;
     }
   }
 
